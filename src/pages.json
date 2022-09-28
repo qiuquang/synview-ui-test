@@ -11,6 +11,10 @@
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"easycom": {
+		"^syn-(.*)": "synview-ui/components/syn-$1/syn-$1.vue"
 	}
 }

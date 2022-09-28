@@ -1,5 +1,7 @@
 <template>
-	<view class="content">
+	<view class="">
+		<view class="status-bar"></view>
+		<syn-left-capsule></syn-left-capsule>
 		<image class="logo" src="/static/logo.png"></image>
 		<view>
 			<text class="title">{{title}}</text>
@@ -24,6 +26,9 @@
 </script>
 
 <style>
+	.status-bar{
+		height: var(--status-bar-height);
+	}
 	.content {
 		display: flex;
 		flex-direction: column;
