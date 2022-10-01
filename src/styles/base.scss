@@ -1,0 +1,16 @@
+// 隐藏滚动条
+::-webkit-scrollbar {
+  display: none;
+  width: 0 !important;
+  height: 0 !important;
+  -webkit-appearance: none;
+  background: transparent;
+  color: transparent;
+}
+.commonPageHeader{
+  display: flex;
+  margin-bottom:14rpx;
+  syn-title-bar{
+    flex: 1;
+  }
+}
